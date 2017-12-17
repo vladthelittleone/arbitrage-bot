@@ -1,11 +1,12 @@
-# Арбитражный бот
+# Arbitrage bot
+Arbitrage bot in poloniex stock exchange. Finds arbitrage situations between three types of currencies.
+For example: BTC => ETH => ETC => BTC.
 
-## Запуск
-* Качаем python3;
-* Запускаем в консоли скрипт **setup.sh** - `sudo sh setup.sh`;
-* Переходим в папку **src** из запускаем main.py - `sudo python3 main.py`.
+## Run
+* Download python3;
+* Run **setup.sh** script in terminal - `sudo sh setup.sh`;
+* Move to **src** folder and run main.py - `sudo python3 main.py`.
 
-## Структура
-* Весь код находится в папке **src**. 
-* В папке resources находятся файл **pairs.json** с парами валют.
-* В папке **bot** - код бота.
+## Structure
+* Resources folder store filed **pairs.json** with currency pairs;
+* Bot folder store bot code.
